@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "XUGW-NOTE"
+			}
+		},
+		{
+			"path": "pages/note/note",
+			"style": {
+				"navigationBarTitleText": "XUGW-NOTE"
+			}
+		},
+		{
+			"path": "pages/bookmark/bookmark",
+			"style": {
+				"navigationBarTitleText": "XUGW-NOTE"
+			}
+		},
+		{
+			"path": "pages/works/works",
+			"style": {
+				"navigationBarTitleText": "XUGW-NOTE"
+			}
+		}
+    ],
+	"tabBar": {
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index"
+	      },
+		  {
+		    "pagePath": "pages/note/note"
+		  },
+		  {
+		    "pagePath": "pages/bookmark/bookmark"
+		  },
+		  {
+		    "pagePath": "pages/works/works"
+		  }
+	    ]
+	  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "XUGW-NOTE",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
