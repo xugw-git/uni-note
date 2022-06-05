@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "highlight.js": "^11.5.1",
+    "marked": "^4.0.16"
+  }
+}
