@@ -4,7 +4,7 @@
 			<u-list-item v-for="(item, index) in indexList" :key="index">
 				<u-cell>
 					<u-avatar slot="icon" shape="square" size="35" :src="item.url" customStyle="margin: -3px 5px -3px 0"></u-avatar>
-					<u-link slot="title" :href="item.linkUrl" :text="item.title" color="#19be6b"></u-link>
+					<u-link slot="title" :href="item.linkUrl" :text="item.title" color="#0b87da"></u-link>
 				</u-cell>
 			</u-list-item>
 		</u-list>
@@ -49,8 +49,8 @@ export default {
 	onLoad() {
 		for (let i = 0; i < 9; i++) {
 			this.indexList.push({
-				title: this.titleList[i],
 				url: this.urls[uni.$u.random(0, this.urls.length - 1)],
+				title: this.titleList[i],
 				linkUrl: this.linkUrls[i]
 			});
 		}
