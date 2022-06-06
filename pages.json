@@ -25,9 +25,57 @@
 			}
 		},
 		{
-			"path": "pages/note/javascript",
+			"path": "pages/note/note-javascript",
 			"style": {
 				"navigationBarTitleText": "基础 JavaScript"
+			}
+		},
+		{
+			"path": "pages/note/note-es6",
+			"style": {
+				"navigationBarTitleText": "ES6"
+			}
+		},
+		{
+			"path": "pages/note/note-re",
+			"style": {
+				"navigationBarTitleText": "正则表达式"
+			}
+		},
+		{
+			"path": "pages/note/note-datastru",
+			"style": {
+				"navigationBarTitleText": "基础数据结构"
+			}
+		},
+		{
+			"path": "pages/note/note-object",
+			"style": {
+				"navigationBarTitleText": "面向对象编程"
+			}
+		},
+		{
+			"path": "pages/note/note-functional",
+			"style": {
+				"navigationBarTitleText": "函数式编程"
+			}
+		},
+		{
+			"path": "pages/note/note-basicalgo",
+			"style": {
+				"navigationBarTitleText": "基础算法"
+			}
+		},
+		{
+			"path": "pages/note/note-intermediatealgo",
+			"style": {
+				"navigationBarTitleText": "基础算法"
+			}
+		},
+		{
+			"path": "pages/note/note-topic",
+			"style": {
+				"navigationBarTitleText": "算法题"
 			}
 		}
 	],

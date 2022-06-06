@@ -1,6 +1,7 @@
 <template>
 	<view class="content">
 		<u-swiper :list="list" indicator indicatorMode="line" circular></u-swiper>
+		<u-gap height="40"></u-gap>
 		<u-cell-group>
 			<u-cell icon="chat" title="子在川上曰：逝者如斯夫！不舍昼夜。"></u-cell>
 			<u-cell icon="chat" title="士不可以不弘毅，任重而道远。"></u-cell>

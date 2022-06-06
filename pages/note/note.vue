@@ -31,20 +31,22 @@ export default {
 				'https://cdn.uviewui.com/uview/album/9.jpg',
 				'https://cdn.uviewui.com/uview/album/10.jpg'
 			],
-			titleList: ['基础 JavaScript', 'ES6', '正则表达式', '基础数据结构', '面向对象编程', '函数式编程'],
+			titleList: ['基础 JavaScript', 'ES6', '正则表达式', '基础数据结构', '面向对象编程', '函数式编程','基础算法','中级算法','算法题'],
 			linkUrls: [
-				'/pages/note/javascript',
-				'/pages/note/javascript',
-				'/pages/note/javascript',
-				'/pages/note/javascript',
-				'/pages/note/javascript',
-				'/pages/note/javascript',
-				'/pages/note/javascript',
+				'/pages/note/note-javascript',
+				'/pages/note/note-es6',
+				'/pages/note/note-re',
+				'/pages/note/note-datastru',
+				'/pages/note/note-object',
+				'/pages/note/note-functional',
+				'/pages/note/note-basicalgo',
+				'/pages/note/note-intermediatealgo',
+				'/pages/note/note-topic',
 			]
 		};
 	},
 	onLoad() {
-		for (let i = 0; i < 6; i++) {
+		for (let i = 0; i < 9; i++) {
 			this.indexList.push({
 				url: this.urls[uni.$u.random(0, this.urls.length - 1)],
 				title: this.titleList[i]
