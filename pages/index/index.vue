@@ -28,6 +28,17 @@
 					'https://cdn.uviewui.com/uview/album/3.jpg',
 				],
 			};
+		},
+		onShareAppMessage() {
+			return {
+				title: 'xugw',
+				path: '/pages/index/index',
+			}
+		},
+		onShareTimeline() {
+			return {
+				title: 'xugw',
+			}
 		}
 	};
 </script>
